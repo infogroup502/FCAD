@@ -97,7 +97,7 @@ if __name__ == "__main__":
     parser.add_argument("--step", type=int, default=1)  
     parser.add_argument("--anormly_ratio", type=float, default=0.24)  
     parser.add_argument("--batch_size", type=int, default=128)  
-    parser.add_argument("--epochs", type=int, default=10)  
+    parser.add_argument("--epochs", type=int, default=8)  
     parser.add_argument("--stage23_lr", type=float, default=1e-3)  
     parser.add_argument("--use_gpu", type=bool, default=True)  
     parser.add_argument("--gpu", type=int, default=0)  
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     parser.add_argument("--stage1_checkpoint", type=str, default="auto")  
 
     parser.add_argument("--stage2_num_patterns", type=int, default=5)  
-    parser.add_argument("--top_q", type=int, default=1)  
+    parser.add_argument("--top_q", type=int, default=5)  
     parser.add_argument("--stage2_center_init_std", type=float, default=0.5)  
     parser.add_argument("--stage2_sigma_init", type=float, default=1.0)  
     parser.add_argument("--stage2_sigma_min", type=float, default=0.05)  
