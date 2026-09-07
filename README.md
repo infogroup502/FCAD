@@ -1,4 +1,4 @@
-#Multi-Prototype-Guided Fuzzy Contrast Inference for Industrial Multisensor Signal Anomaly Detection
+# Multi-Prototype-Guided Fuzzy Contrast Inference for Industrial Multisensor Signal Anomaly Detection
 
 ## Requirements
 The recommended requirements for FCAD are specified as follows:
