@@ -2,17 +2,17 @@
 
 ## Requirements
 The recommended requirements for FCAD are specified as follows:
-- arch>=5.3
-- hurst>=0.0.5
-- matplotlib>=3.5
-- numpy>=1.23
-- pandas>=1.5
-- scikit-learn>=1.2
-- scipy>=1.9
-- statsmodels>=0.13
-- torch>=1.13
-- tqdm>=4.64
-- tsfresh>=0.20
+- arch==5.3
+- hurst==0.0.5
+- matplotlib==3.5
+- numpy==1.23
+- pandas==1.5
+- scikit-learn==1.2
+- scipy==1.9
+- statsmodels==0.13
+- torch==1.13
+- tqdm==4.64
+- tsfres==0.20
 
 The dependencies can be installed by:
 ```bash
